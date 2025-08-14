@@ -7,6 +7,9 @@ It lets you:
 - Watch the sorting process animated step-by-step with bars and numbers
 - Adjust the **animation speed** with a slider
 
+## ​ Live Demo
+Try it out live: [sorting-algo-visualiser11.netlify.app](https://sorting-algo-visualiser11.netlify.app/)
+
 ## 🚀 Features
 - **User Input Array**: Enter numbers manually (comma-separated)
 - **Sorting Algorithms**:
