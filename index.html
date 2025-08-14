@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithm Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sorting Algorithm Visualizer</h1>
+
+    <div class="controls">
+        <input type="text" id="array-input" placeholder="Enter numbers, e.g. 5,3,8,1">
+        <button onclick="setArrayFromInput()">Set Array</button>
+
+        <div class="speed-control">
+            <label for="speed-slider">Speed: <span id="speed-value">200</span> ms</label>
+            <input type="range" id="speed-slider" min="50" max="3000" value="200" step="50">
+        </div>
+    </div>
+
+    <div class="algo-buttons">
+        <button onclick="bubbleSort()">Bubble Sort</button>
+        <button onclick="selectionSort()">Selection Sort</button>
+        <button onclick="insertionSort()">Insertion Sort</button>
+        <button onclick="quickSort()">Quick Sort</button>
+        <button onclick="mergeSort()">Merge Sort</button>
+    </div>
+
+    <div id="array-container"></div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

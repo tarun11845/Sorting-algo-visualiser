@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background: #333;
+    color: white;
+    padding: 15px 0;
+    margin: 0;
+}
+
+.controls {
+    margin: 15px;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background: teal;
+    color: white;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #006666;
+}
+
+.algo-buttons {
+    margin: 15px;
+}
+
+#array-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 400px;
+    margin: 20px;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.bar {
+    background-color: teal;
+    margin: 0 1px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 3px 3px 0 0;
+}
+
+.bar span {
+    position: absolute;
+    top: -20px;
+    color: black;
+    font-size: 12px;
+}
+
+.bar.active {
+    background-color: red;
+}
+
+.speed-control {
+    margin-top: 10px;
+}
+
+#speed-slider {
+    width: 200px;
+}
